@@ -8,6 +8,7 @@ import {
   Pagination,
   Tabs,
   Table,
+  Modal,
 } from "antd";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Pagination />
       <Tabs></Tabs>
       <Table></Table>
+      <Modal></Modal>
     </div>
   );
 }

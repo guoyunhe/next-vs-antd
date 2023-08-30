@@ -8,6 +8,7 @@ import {
   Pagination,
   Tab,
   Table,
+  Dialog,
 } from "@alifd/next";
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
       <Table>
         <Table.Column />
       </Table>
+      <Dialog />
     </div>
   );
 }
