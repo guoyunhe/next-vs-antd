@@ -1,4 +1,4 @@
-import "@alifd/next/dist/next.css";
+import "@alifd/next/dist/next.var.css";
 import {
   Input,
   Button,
@@ -9,6 +9,11 @@ import {
   Tab,
   Table,
   Dialog,
+  Message,
+  Timeline,
+  Step,
+  Balloon,
+  Select,
 } from "@alifd/next";
 
 function App() {
@@ -29,6 +34,12 @@ function App() {
         <Table.Column />
       </Table>
       <Dialog />
+      <Message></Message>
+      <Timeline></Timeline>
+      <Step></Step>
+      <Balloon></Balloon>
+      <Balloon.Tooltip></Balloon.Tooltip>
+      <Select></Select>
     </div>
   );
 }

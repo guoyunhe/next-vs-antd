@@ -9,9 +9,17 @@ import {
   Tabs,
   Table,
   Modal,
+  Alert,
+  message,
+  Timeline,
+  Steps,
+  Tooltip,
+  Popover,
+  Select,
 } from "antd";
 
 function App() {
+  message.useMessage();
   return (
     <div className="App">
       <Input placeholder="Input" />
@@ -25,6 +33,12 @@ function App() {
       <Tabs></Tabs>
       <Table></Table>
       <Modal></Modal>
+      <Alert></Alert>
+      <Timeline></Timeline>
+      <Steps></Steps>
+      <Popover></Popover>
+      <Tooltip></Tooltip>
+      <Select></Select>
     </div>
   );
 }
