@@ -1,5 +1,16 @@
 # 对比 Fusion Design 和 Ant Design
 
+## 维护情况
+
+### GitHub issues
+
+通过 GitHub issues 可以反映出一个开源项目的维护活跃度。
+
+| Library       | Open issues | Closed issues | Unsolved rate |
+| ------------- | ----------- | ------------- | ------------- |
+| Ant Design    | 925         | 26511         | 3.4%          |
+| Fusion Design | 550         | 1976          | 21.8% (+541%) |
+
 ## 构建产物尺寸
 
 ### 最小应用
